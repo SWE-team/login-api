@@ -17,8 +17,8 @@ app.use("/student",studentRouter);
 app.use("/faculty",facultyRouter);
 
 
-// mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.connect("mongodb+srv://sweprojectams:akj@1234@cluster0.v86ui.mongodb.net/ams_db?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
+ mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true, useUnifiedTopology: true});
+
 
 
 

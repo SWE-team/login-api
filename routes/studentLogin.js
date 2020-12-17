@@ -41,7 +41,7 @@ function createTokenAndSendEmail(studentEmail,studentPassword,studentRollNo,stud
                 service: 'gmail',
                 auth: {
                   user: 'sweprojectams@gmail.com',
-                  pass: 'vfeqcvcrutvczykp',
+                  pass: process.env.EMIAL_PASS,
                 //   pass: process.env.EMAIL_PASS,
                 }
               });
@@ -248,7 +248,7 @@ router.post("/resetPassword",(req,res) => {
                             service: 'gmail',
                             auth: {
                               user: 'sweprojectams@gmail.com',
-                              pass: 'vfeqcvcrutvczykp',
+                              pass: process.env.EMIAL_PASS,
                             }
                           });
                           

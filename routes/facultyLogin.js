@@ -40,7 +40,7 @@ function createTokenAndSendEmail(facultyEmail,facultyPassword,facultyId,facultyN
                 service: 'gmail',
                 auth: {
                   user: 'sweprojectams@gmail.com',
-                  pass: 'vfeqcvcrutvczykp',
+                  pass: process.env.EMIAL_PASS,
                 }
               });
               
@@ -245,7 +245,7 @@ router.post("/resetPassword",(req,res) => {
                             service: 'gmail',
                             auth: {
                               user: 'sweprojectams@gmail.com',
-                              pass: 'vfeqcvcrutvczykp',
+                              pass: process.env.EMIAL_PASS,
                             }
                           });
                           
