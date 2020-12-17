@@ -1,0 +1,21 @@
+{
+  "name": "ams-backend",
+  "version": "1.0.0",
+  "description": "ams-sever",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AKJ",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.10.12",
+    "nodemailer": "^6.4.15",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}
