@@ -16,6 +16,7 @@
     "md5": "^2.3.0",
     "mongoose": "^5.10.12",
     "nodemailer": "^6.4.15",
-    "passport-google-oauth2": "^0.2.0"
+    "passport-google-oauth2": "^0.2.0",
+    "helmet": "^4.6.0"
   }
 }
